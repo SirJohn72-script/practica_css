@@ -1,0 +1,27 @@
+.carrusel-container {
+  width: 100%;
+  background-color: white;
+}
+
+.carrusel-wrapper {
+  padding: 2rem 0;
+  width: 90%;
+  height: fit-content;
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carrusel-wrapper img {
+  width: 20%;
+  opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+  .carrusel-wrapper {
+    padding: 0;
+  }
+}

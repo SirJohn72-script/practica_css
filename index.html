@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./stylos/vars.css" />
+    <link rel="stylesheet" href="./stylos/reset.css" />
+    <link rel="stylesheet" href="./stylos/navbar.css" />
+    <link rel="stylesheet" href="./stylos/hero.css" />
+    <link rel="stylesheet" href="./stylos/icons.css" />
+    <link rel="stylesheet" href="./stylos/buttons.css" />
+    <link rel="stylesheet" href="./stylos/carrusel.css" />
+    <link rel="stylesheet" href="./stylos/whyVaccine.css" />
+    <link
+      rel="stylesheet"
+      href="/stylos/preparations.css"
+    />
+    <link rel="stylesheet" href="./stylos/Contact.css" />
+    <link rel="stylesheet" href="./stylos/footer.css" />
+    <link
+      rel="stylesheet"
+      href="./stylos/headerIndicator.css"
+    />
+
+    <title>Vaccination</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <secction class="navbar">
+      <nav class="navbar-container">
+        <div class="navbar-wrapper">
+          <div class="logo">Vaccination</div>
+          <div class="menu menu-hidden">
+            <div class="menu-item">
+              <a
+                class="menu-item-link nav-item-link"
+                href="#"
+                >Database</a
+              >
+            </div>
+            <div class="menu-item">
+              <a
+                class="menu-item-link nav-item-link"
+                href="#"
+                >Education</a
+              >
+            </div>
+            <div class="menu-item">
+              <a
+                class="menu-item-link nav-item-link"
+                href="#"
+                >News</a
+              >
+            </div>
+            <div class="menu-item">
+              <a
+                class="menu-item-link nav-item-link"
+                href="#"
+                >Regulation</a
+              >
+            </div>
+            <div class="menu-item">
+              <a class="menu-item-link button" href="#"
+                >Hoax Buster</a
+              >
+            </div>
+          </div>
+
+          <div class="mobile-menu">
+            <i class="fa-solid fa-align-justify"></i>
+          </div>
+        </div>
+      </nav>
+    </secction>
+
+    <!-- Header -->
+    <secction class="header">
+      <div class="header-container">
+        <div class="header-wrapper">
+          <!-- Initial message -->
+          <div class="header-info-message">
+            <div class="center-info-message">
+              <h1 class="header-title">
+                Fight Virus <br />
+                With Vaccines
+              </h1>
+              <p class="header-subheader">
+                Let's stop this pandemic by killing the
+                virus with a vaccine, dont let yourself and
+                your family get infected
+              </p>
+              <div class="headers-icons">
+                <div class="header-icon">
+                  <i
+                    class="fa-solid fa-shield-blank yellow-icon"
+                  ></i>
+                  <b> Best Protection </b>
+                </div>
+
+                <div class="header-icon">
+                  <i
+                    class="fa-solid fa-star yellow-icon"
+                  ></i>
+                  <b> Selected Vaccines </b>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- wrapper banner desktop view -->
+          <div class="wrapper-banner">
+            <div class="wrapper-banner-title">
+              <i
+                class="fa-solid fa-clock blue-icon-principal"
+              ></i>
+              <p>Schedule your vaccinations</p>
+            </div>
+
+            <div class="wrapper-banner-sections">
+              <!-- Location items -->
+              <div
+                class="wrapper-banner-sections-item location"
+              >
+                <div
+                  class="wrapper-banner-section-item-icon"
+                >
+                  <i
+                    class="fa-solid fa-location-pin blue-icon-secondary"
+                  ></i>
+                </div>
+                <div
+                  class="wrapper-banner-section-item-data"
+                >
+                  <p>Location</p>
+                  <p>Jakarta Utara</p>
+                </div>
+              </div>
+
+              <!-- Date items -->
+              <div
+                class="wrapper-banner-sections-item Date"
+              >
+                <div
+                  class="wrapper-banner-section-item-icon"
+                >
+                  <i
+                    class="fa-regular fa-calendar blue-icon-secondary"
+                  ></i>
+                </div>
+                <div
+                  class="wrapper-banner-section-item-data"
+                >
+                  <p>Date</p>
+                  <p>08 July 2021</p>
+                </div>
+              </div>
+
+              <!-- Vaccine Type -->
+              <div
+                class="wrapper-banner-sections-item vaccine-type"
+              >
+                <div
+                  class="wrapper-banner-section-item-icon"
+                >
+                  <i
+                    class="fa-solid fa-pencil blue-icon-secondary"
+                  ></i>
+                </div>
+                <div
+                  class="wrapper-banner-section-item-data"
+                >
+                  <p>Vaccine Type</p>
+                  <p>Moderna</p>
+                </div>
+              </div>
+
+              <!-- Button Submit -->
+              <div
+                class="wrapper-banner-sections-item button"
+              >
+                <button class="blue-button-principal">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- wrapper banner mobile view -->
+
+          <div class="header-info-img"></div>
+        </div>
+
+        <!-- Schedules vaccination mobile view -->
+        <div class="wrapper-banner-mobile-view">
+          <div class="wrapper-banner-title">
+            <i
+              class="fa-solid fa-clock blue-icon-principal"
+            ></i>
+            <p>Schedule your vaccinations</p>
+          </div>
+
+          <div class="wrapper-banner-sections">
+            <!-- Location items -->
+            <div
+              class="wrapper-banner-sections-item location"
+            >
+              <div class="wrapper-banner-section-item-icon">
+                <i
+                  class="fa-solid fa-location-pin blue-icon-secondary"
+                ></i>
+              </div>
+              <div class="wrapper-banner-section-item-data">
+                <p>Location</p>
+                <p>Jakarta Utara</p>
+              </div>
+            </div>
+
+            <!-- Date items -->
+            <div class="wrapper-banner-sections-item Date">
+              <div class="wrapper-banner-section-item-icon">
+                <i
+                  class="fa-regular fa-calendar blue-icon-secondary"
+                ></i>
+              </div>
+              <div class="wrapper-banner-section-item-data">
+                <p>Date</p>
+                <p>08 July 2021</p>
+              </div>
+            </div>
+
+            <!-- Vaccine Type -->
+            <div
+              class="wrapper-banner-sections-item vaccine-type"
+            >
+              <div class="wrapper-banner-section-item-icon">
+                <i
+                  class="fa-solid fa-pencil blue-icon-secondary"
+                ></i>
+              </div>
+              <div class="wrapper-banner-section-item-data">
+                <p>Vaccine Type</p>
+                <p>Moderna</p>
+              </div>
+            </div>
+
+            <!-- Button Submit -->
+            <div
+              class="wrapper-banner-sections-item button"
+            >
+              <button class="blue-button-principal">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </secction>
+
+    <!-- Empresas Carussel -->
+    <secction class="carrusel">
+      <div class="carrusel-container">
+        <div class="carrusel-wrapper">
+          <!-- Astra zeneca -->
+          <img
+            src="./assets/empresas/astrazeneca.png"
+            alt="Astrazeneca Logo Logotype - Astra Zeneca@seekpng.com"
+          />
+          <img
+            src="./assets/empresas/sinovac.png"
+            alt="Astrazeneca Logo Logotype - Astra Zeneca@seekpng.com"
+          />
+          <img
+            src="./assets/empresas/pfizer.png"
+            alt="Astrazeneca Logo Logotype - Astra Zeneca@seekpng.com"
+          />
+          <img
+            src="./assets/empresas/moderna.png"
+            alt="Astrazeneca Logo Logotype - Astra Zeneca@seekpng.com"
+          />
+        </div>
+      </div>
+    </secction>
+
+    <!-- Why should i vaccines -->
+    <secction class="why-vaccine">
+      <div class="why-vaccines-container">
+        <div class="why-vaccines-wrapper">
+          <div class="center-why-vaccine-info">
+            <!-- Header title -->
+            <div class="why-vaccine-header">
+              <div class="why-vaccine-header-info">
+                <h2>Why should I vaccine?</h2>
+                <p>
+                  In order to avoid any doubts getting the
+                  COVID-19 vaccine, identity the following 4
+                  benefits of COVID-19 vaccination:
+                </p>
+              </div>
+
+              <!-- Header indicator -->
+              <div class="header-indicator-container">
+                <div class="header-indicator"></div>
+              </div>
+            </div>
+
+            <!-- Secction cards -->
+            <div class="why-vaccine-secctions">
+              <!-- Card 1 -->
+              <div class="why-vaccine-card">
+                <div class="why-vaccine-card-icon">
+                  <i
+                    class="fa-solid fa-bars-progress blue-icon-principal"
+                  ></i>
+                </div>
+                <div class="why-vaccine-card-info">
+                  <h4>Minimze the spread of viruses</h4>
+                  <p>
+                    Vaccine has been proven effective to
+                    prevent someone from getting infected
+                    with Coronavirus
+                  </p>
+                </div>
+              </div>
+              <!-- Card 2-->
+              <div class="why-vaccine-card">
+                <div class="why-vaccine-card-icon">
+                  <i
+                    class="fa-solid fa-shield-blank blue-icon-principal"
+                  ></i>
+                </div>
+                <div class="why-vaccine-card-info">
+                  <h4>Forming antibodies</h4>
+                  <p>
+                    COVID-19 vaccine proven to help shape
+                    antibody response for inmmune system
+                  </p>
+                </div>
+              </div>
+              <!-- Card 3-->
+              <div class="why-vaccine-card">
+                <div class="why-vaccine-card-icon">
+                  <i
+                    class="fa-solid fa-user-group blue-icon-principal"
+                  ></i>
+                </div>
+                <div class="why-vaccine-card-info">
+                  <h4>Protecting people nearby</h4>
+                  <p>
+                    The benefits of COVID-19 vaccination are
+                    the vaccine that we get can also help
+                    protect people around us
+                  </p>
+                </div>
+              </div>
+              <!-- Card 4-->
+              <div class="why-vaccine-card">
+                <div class="why-vaccine-card-icon">
+                  <i
+                    class="fa-solid fa-comment-dots blue-icon-principal"
+                  ></i>
+                </div>
+                <div class="why-vaccine-card-info">
+                  <h4>Creating group immunity</h4>
+                  <p>
+                    COVID-19 vaccination is also beneficial
+                    for cheating group immunity or herd
+                    immunity
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </secction>
+
+    <!-- Preparations -->
+    <secction class="preparations">
+      <div class="preparations-container">
+        <div class="preparations-wrapper">
+          <div class="preparations-center-info">
+            <div class="preparations-sec-1">
+              <!-- Header indicator -->
+              <div class="header-indicator-container">
+                <div class="header-indicator-left"></div>
+              </div>
+
+              <!-- header -->
+              <div class="preparations-header">
+                <h2>Preparations Before Vaccine</h2>
+                <p>
+                  The success of vaccines is strongly
+                  influenced by the strength of the body's
+                  immune system. Therefore, there are
+                  several things that can be tried to make
+                  the COVID-19 vaccine work:
+                </p>
+              </div>
+            </div>
+
+            <div class="preparations-sec-2">
+              <!-- items -->
+              <div class="preparations-items">
+                <!-- Avoid -->
+                <div class="preparation-item">
+                  <!-- drop icon -->
+                  <div class="content">
+                    <div class="icon-pre">
+                      <i
+                        class="fa-solid fa-shield blue-icon-principal"
+                      ></i>
+                      <p>Avoid alcoholic beverages</p>
+                    </div>
+
+                    <div class="icon-drop">
+                      <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                  </div>
+
+                  <!-- drop content -->
+                  <div class="dropdown-content">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Minima possimus neque
+                    placeat reprehenderit architecto eum
+                    consequuntur perferendis earum explicabo
+                    debitis?
+                  </div>
+                </div>
+                <!-- stress -->
+                <div class="preparation-item">
+                  <!-- drop icon -->
+                  <div class="content">
+                    <div class="icon-pre">
+                      <i
+                        class="fa-solid fa-shield blue-icon-principal"
+                      ></i>
+                      <p>Avoid stress</p>
+                    </div>
+
+                    <div class="icon-drop">
+                      <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                  </div>
+
+                  <!-- drop content -->
+                  <div class="dropdown-content">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Minima possimus neque
+                    placeat reprehenderit architecto eum
+                    consequuntur perferendis earum explicabo
+                    debitis?
+                  </div>
+                </div>
+                <!-- Avoid -->
+                <div class="preparation-item">
+                  <!-- drop icon -->
+                  <div class="content">
+                    <div class="icon-pre">
+                      <i
+                        class="fa-solid fa-shield blue-icon-principal"
+                      ></i>
+                      <p>Avoid alcoholic beverages</p>
+                    </div>
+
+                    <div class="icon-drop">
+                      <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                  </div>
+
+                  <!-- drop content -->
+                  <div class="dropdown-content">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Minima possimus neque
+                    placeat reprehenderit architecto eum
+                    consequuntur perferendis earum explicabo
+                    debitis?
+                  </div>
+                </div>
+                <!-- Avoid -->
+                <div class="preparation-item">
+                  <!-- drop icon -->
+                  <div class="content">
+                    <div class="icon-pre">
+                      <i
+                        class="fa-solid fa-shield blue-icon-principal"
+                      ></i>
+                      <p>Avoid alcoholic beverages</p>
+                    </div>
+
+                    <div class="icon-drop">
+                      <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                  </div>
+
+                  <!-- drop content -->
+                  <div class="dropdown-content">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Minima possimus neque
+                    placeat reprehenderit architecto eum
+                    consequuntur perferendis earum explicabo
+                    debitis?
+                  </div>
+                </div>
+                <!-- Avoid -->
+                <div class="preparation-item">
+                  <!-- drop icon -->
+                  <div class="content">
+                    <div class="icon-pre">
+                      <i
+                        class="fa-solid fa-shield blue-icon-principal"
+                      ></i>
+                      <p>Avoid alcoholic beverages</p>
+                    </div>
+
+                    <div class="icon-drop">
+                      <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                  </div>
+
+                  <!-- drop content -->
+                  <div class="dropdown-content">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Minima possimus neque
+                    placeat reprehenderit architecto eum
+                    consequuntur perferendis earum explicabo
+                    debitis?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </secction>
+
+    <!-- Contact -->
+    <secction class="contact">
+      <div class="contact-container">
+        <div class="contact-wrapper">
+          <div class="contact-center-info">
+            <!-- Header -->
+            <div class="contact-header">
+              <div class="contact-header-info">
+                <h2>Emergency Contact</h2>
+                <p>
+                  Contact one the contacts bellow if you or
+                  your family fell unwell and have similar
+                  symptoms such as COVID-19,make sure you
+                  also take care of yourself before
+                  reporting to us:
+                </p>
+              </div>
+
+              <div class="contact-header-indicator">
+                <div class="header-indicator"></div>
+              </div>
+            </div>
+
+            <div class="contact-info-buttons">
+              <div class="contact-info-buttons-wrapper">
+                <!-- CALL -->
+                <div class="info-button">
+                  <!-- header info -->
+                  <div class="info">
+                    <div class="info-icon info-button-icon">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="info-title">
+                      <h4>CALL</h4>
+                      <p>021.123.145.14</p>
+                    </div>
+                  </div>
+
+                  <!-- button submit -->
+                  <div class="button-submit-container">
+                    <button class="buton-inf">
+                      Call Now
+                    </button>
+                  </div>
+                </div>
+                <!-- CHAT -->
+                <div class="info-button">
+                  <!-- header info -->
+                  <div class="info">
+                    <div class="info-icon info-button-icon">
+                      <i
+                        class="fa-solid fa-comment-dots"
+                      ></i>
+                    </div>
+                    <div class="info-title">
+                      <h4>CHAT</h4>
+                      <p>021.123.145.14</p>
+                    </div>
+                  </div>
+
+                  <!-- button submit -->
+                  <div class="button-submit-container">
+                    <button class="buton-inf">
+                      Call Now
+                    </button>
+                  </div>
+                </div>
+                <!-- VIDEO CALL -->
+                <div class="info-button">
+                  <!-- header info -->
+                  <div class="info">
+                    <div class="info-icon info-button-icon">
+                      <i class="fa-solid fa-video"></i>
+                    </div>
+                    <div class="info-title">
+                      <h4>Video Call</h4>
+                      <p>021.123.145.14</p>
+                    </div>
+                  </div>
+
+                  <!-- button submit -->
+                  <div class="button-submit-container">
+                    <button class="buton-inf">
+                      Call Now
+                    </button>
+                  </div>
+                </div>
+
+                <!-- MESSAGE-->
+                <div class="info-button">
+                  <!-- header info -->
+                  <div class="info">
+                    <div class="info-icon info-button-icon">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="info-title">
+                      <h4>MESSAGE</h4>
+                      <p>021.123.145.14</p>
+                    </div>
+                  </div>
+
+                  <!-- button submit -->
+                  <div class="button-submit-container">
+                    <button class="buton-inf">
+                      Call Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </secction>
+
+    <!-- FOOTER -->
+    <secction class="footer">
+      <div class="footer-container">
+        <div class="footer-wrapper">
+          <div class="footer-section">
+            <div class="company-message">
+              <h3>Vaccination</h3>
+              <p>Our goal is to help the</p>
+              <p>world free from the</p>
+              <p>ongoing pandemic</p>
+            </div>
+          </div>
+
+          <div class="footer-section footer-section-2">
+            <div class="menu-company">
+              <div class="about-menu sub-menu">
+                <p>ABOUT</p>
+                <p>Abous us</p>
+                <p>Features</p>
+                <p>News & Blog</p>
+              </div>
+              <div class="about-menu sub-menu">
+                <p>Company</p>
+                <p>How We Work?</p>
+                <p>Capital</p>
+                <p>Security</p>
+              </div>
+              <div class="about-menu sub-menu">
+                <p>FAQs</p>
+                <p>Support Center</p>
+                <p>Contact Us</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-section-3">
+            <div class="copy-right">
+              @2021 Vacinnation All right reserved
+            </div>
+
+            <div class="Terms-and-privacy">
+              <p>Terms & Agrements</p>
+              <p>Privacy Policy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </secction>
+
+    <!-- Scripts -->
+    <script src="./scripts/navbar.js"></script>
+
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/83a8d796e2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

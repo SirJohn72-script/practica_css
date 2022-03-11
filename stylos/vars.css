@@ -1,0 +1,36 @@
+:root {
+  --font-white-color: #6d7b93;
+  --font-dark-color: #1f3e72;
+  --font-logo-color: #2747c5;
+  --font-white-header: #fff;
+  --font-white-subheader: #ccc;
+
+  --button-bgc-color: #3857d5;
+  --button-bgc-color-hover: #617be4;
+  --button-box-shadow: -1px 13px 30px -4px rgba(72, 130, 199, 0.6);
+  --button-box-shadow-hover: 3px 5px 10px
+    rgba(7, 62, 134, 0.7);
+  --button-font-color: #fff;
+  --blue-hightlight: #e9f1fe;
+
+  --button-bgc-secondary: #f1f5ff;
+  --button-bgc-secondary-hover: #3857d5;
+
+  --font-body: "Fredoka";
+  --font-header: Courier;
+
+  --yellow-icon: #ffd012;
+  --yellow-icon-shadow: #fff9df;
+  --yellow-icon-box-shadow: 2px 2px 7px
+    rgba(255, 250, 230, 0.7);
+
+  --blue-icon: #2949c7;
+  --blue-icon-shadow: #f1f5ff;
+  --blue-icon-box-shadow: 2px 5px 10px
+    rgba(214, 222, 255, 1);
+
+  --box-shadow-dropdown: 1px 5px 5px 0px
+    rgba(97, 123, 228, 0.42);
+
+  --section-blue-shadow: -1px 33px 36px -4px rgba(72, 130, 199, 0.45);
+}

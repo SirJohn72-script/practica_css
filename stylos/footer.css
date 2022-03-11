@@ -1,0 +1,147 @@
+.footer-container {
+  width: 100%;
+  background-color: #eef3ff;
+}
+
+.footer-wrapper {
+  margin: auto;
+  padding: 2rem 0.5rem 1rem 0.5rem;
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.footer-section {
+  width: 50%;
+}
+
+/* Secction 1 */
+.copy-right {
+  width: 100%;
+}
+
+/* Company Message */
+.company-message h3 {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  color: var(--font-dark-color);
+  font-weight: 500;
+}
+.company-message p {
+  padding-top: 0.5rem;
+  max-width: 100%;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--font-white-color);
+}
+
+/* Secction 2 */
+.footer-section-2 {
+  width: 50%;
+}
+
+.menu-company {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-menu p:nth-child(1) {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  color: var(--font-dark-color);
+  font-weight: 500;
+}
+
+.sub-menu p {
+  padding-top: 0.5rem;
+  max-width: 100%;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--font-white-color);
+}
+
+/* Copy and terms */
+.footer-section-3 {
+  width: 100%;
+  display: flex;
+}
+.copy-right {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+}
+
+.Terms-and-privacy {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.Terms-and-privacy p:nth-child(2) {
+  margin-left: 0.5rem;
+}
+.copy-right,
+.Terms-and-privacy p {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+  padding-top: 0.5rem;
+  max-width: 100%;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--font-white-color);
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    width: 100%;
+  }
+
+  .company-message {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .company-message h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* menus */
+  .menu-company {
+    padding-top: 1rem;
+  }
+
+  .sub-menu p {
+    text-align: center;
+  }
+
+  /* Copy and terms */
+  .footer-section-3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .copy-right {
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  .Terms-and-privacy,
+  .copy-right {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .copy-right,
+  .Terms-and-privacy p {
+    margin: 0;
+  }
+}
